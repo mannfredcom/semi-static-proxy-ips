@@ -1,0 +1,24 @@
+#
+# Automatically generated CSV list of IPv6 proxy exit subnets.
+# Extracted from proxy_exits_7d_ipv6.csv (min. 16 subnet hits)
+# Generated: Sun Feb 11 09:05:12 2024
+# Reference: https://github.com/mannfredcom/semi-static-proxy-ips/
+#
+subnet mask,description,
+2605:6404:18a::/48,80 unique IPv6 exits from entry IP 45.61.188.134,
+2a12:5940:1227:0::/64,58 unique IPv6 exits from entry IP 79.137.204.40,
+2a12:5940:1697:0::/64,125 unique IPv6 exits from entry IP 79.137.204.161,
+2a12:5940:16c2:0::/64,47 unique IPv6 exits from entry IP 79.137.204.235,
+2a12:5940:18a9:0::/64,24 unique IPv6 exits from entry IP 79.137.205.64,
+2a12:5940:1c2f:0::/64,87 unique IPv6 exits from entry IP 79.137.198.31,
+2a12:5940:1c3e:0::/64,70 unique IPv6 exits from entry IP 91.103.252.113,
+2a12:5940:7262:0::/64,90 unique IPv6 exits from entry IP 79.137.248.127,
+2a12:5940:995e:0::/64,98 unique IPv6 exits from entry IP 92.246.139.106,
+2a12:5940:9961:0::/64,88 unique IPv6 exits from entry IP 92.246.139.113,
+2a12:5940:b287:0::/64,68 unique IPv6 exits from entry IP 5.42.74.179,
+2a12:5940:b643:0::/64,69 unique IPv6 exits from entry IP 5.42.78.239,
+2a12:5940:b698:0::/64,72 unique IPv6 exits from entry IP 5.42.74.255,
+2a12:5940:b7bb:0::/64,49 unique IPv6 exits from entry IP 5.42.81.57,
+2a12:5940:f571:0::/64,80 unique IPv6 exits from entry IP 94.228.162.155,
+2a12:5940:f5a7:0::/64,78 unique IPv6 exits from entry IP 193.233.133.106,
+2a12:5940:f5d2:0::/64,89 unique IPv6 exits from entry IP 94.228.162.118,
