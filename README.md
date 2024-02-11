@@ -7,8 +7,7 @@ As a complement to my February 2024 research study titled ![Open Proxy Life Expe
 
 | List | Description |
 | --- | --- |
-| ![proxy_exits_7d_ipv4.csv](https://github.com/mannfredcom/semi-static-proxy-ips/proxy_exits_7d_ipv4.csv) | List of open proxy exit IPv4 IPs which have been active for 7 days or longer |
-| ![proxy_exits_7d_ipv6.csv](https://github.com/mannfredcom/semi-static-proxy-ips/proxy_exits_7d_ipv6.csv) | List of open proxy exit IPv6 IPs which have been active for 7 days or longer |
-| ![proxy_exits_30d_ipv4.csv](https://github.com/mannfredcom/semi-static-proxy-ips/proxy_exits_30d_ipv4.csv) | List of open proxy exit IPv4 IPs which have been active for 30 days or longer |
-| ![proxy_exits_30d_ipv6.csv](https://github.com/mannfredcom/semi-static-proxy-ips/proxy_exits_30d_ipv6.csv) | List of open proxy exit IPv6 IPs which have been active for 30 days or longer |
-
+| ![proxy_exits_7d_ipv4.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_exits_7d_ipv4.csv) | List of open proxy exit IPv4 IPs which have been active for 7 days or longer |
+| ![proxy_exits_7d_ipv6.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_exits_7d_ipv6.csv) | List of open proxy exit IPv6 IPs which have been active for 7 days or longer |
+| ![proxy_exits_30d_ipv4.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_exits_30d_ipv4.csv) | List of open proxy exit IPv4 IPs which have been active for 30 days or longer |
+| ![proxy_exits_30d_ipv6.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_exits_30d_ipv6.csv) | List of open proxy exit IPv6 IPs which have been active for 30 days or longer |
