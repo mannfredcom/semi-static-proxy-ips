@@ -3,7 +3,7 @@ Lists of semi-static open proxy exit IPs, updated weekly
 
 ## Introduction
 
-As a complement to my February 2024 research study titled ![Open Proxy Life Expectancy](https://mannfred.com/open-proxy-life-expectancy/) a set of CSV files containing semi-static open proxy exit IPs are provided.
+As a complement to my February 2024 research study titled <a href="https://mannfred.com/open-proxy-life-expectancy/">Open Proxy Life Expectancy</a> a set of CSV files containing semi-static open proxy exit IPs are provided.
 
 | List | Description |
 | --- | --- |
