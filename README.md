@@ -34,9 +34,9 @@ Notes:
 ## Recent Statistics
 
 <img alt="semi-static exit IP statistics" title="icon" src="plots/exits.png" /><br/>
-<i>Fig 1. Semi-stable exit IP statistics over the last 10 weeks. Unique IP counts for open proxies which have had a stable lifespan of 7 days or more, and 30 days or more.</i><br/><br/>
+<i>Fig 1. Semi-stable exit IP statistics over the last 10 weeks. Unique IP counts for open proxies which have had a stable lifespan of 7 days or more, and 30 days or more. "Asymmetric" IPv4 proxies have exit IPs which are different than the entry IPs. "Regular" IPv4 proxies share the same entry and exit IPs.</i><br/><br/>
 <img alt="semi-static subnet IP statistics" title="icon" src="plots/subnets.png" /><br/>
-<i>Fig 2. Semi-stable subnet IP statistics over the last 10 weeks. Subnets with more than 16 active open proxy exit IPs tracked. For IPv4 the subnet size is fixed to /24, for IPv6 the subnet size varies.</i><br/><br/>
+<i>Fig 2. Semi-stable subnet IP statistics over the last 10 weeks. Subnets with more than 16 active open proxy exit IPs are tracked. For IPv4 the subnet size is fixed to /24, and for IPv6 the subnet size varies.</i><br/><br/>
 <img alt="semi-static protocol ratios" title="icon" src="plots/ratios.png" /><br/>
 <i>Fig 3. Distribution of semi-stable exit IPs over IPv4 and IPv6 over the past 10 weeks.</i><br/><br/>
 
