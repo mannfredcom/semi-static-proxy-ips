@@ -4,7 +4,7 @@
 # a 93.6% statistical likelihood of remaining actively exploitable for
 # another 7 days or more.
 #
-# Generated: Sun Oct 13 23:52:04 2024
+# Generated: Sun Oct 20 23:52:04 2024
 # Reference: https://github.com/mannfredcom/semi-static-proxy-ips/
 #
 proxy exit ip,optional comment
