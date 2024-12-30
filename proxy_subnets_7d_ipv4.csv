@@ -1,40 +1,39 @@
 #
 # Automatically generated CSV list of IPv4 proxy exit subnets.
 # Extracted from proxy_exits_7d_ipv4.csv (min. 16 subnet hits)
-# Generated: Sun Dec 22 23:52:08 2024
+# Generated: Sun Dec 29 23:52:09 2024
 # Reference: https://github.com/mannfredcom/semi-static-proxy-ips/
 #
 subnet mask,description
 103.166.8.0/24,25 unique IPv4 exits on subnet
-103.175.213.0/24,30 unique IPv4 exits on subnet
-103.217.224.0/24,24 unique IPv4 exits on subnet
-103.69.20.0/24,16 unique IPv4 exits on subnet
-114.216.205.0/24,21 unique IPv4 exits on subnet
-114.218.77.0/24,23 unique IPv4 exits on subnet
-114.218.86.0/24,35 unique IPv4 exits on subnet
-121.227.44.0/24,24 unique IPv4 exits on subnet
-154.197.148.0/24,44 unique IPv4 exits on subnet
+103.175.213.0/24,29 unique IPv4 exits on subnet
+103.217.224.0/24,29 unique IPv4 exits on subnet
+114.216.205.0/24,22 unique IPv4 exits on subnet
+114.218.86.0/24,16 unique IPv4 exits on subnet
+121.227.44.0/24,26 unique IPv4 exits on subnet
 154.73.28.0/24,18 unique IPv4 exits on subnet
-158.140.191.0/24,19 unique IPv4 exits on subnet
-185.228.195.0/24,33 unique IPv4 exits on subnet
-186.148.179.0/24,38 unique IPv4 exits on subnet
-188.130.128.0/24,16 unique IPv4 exits on subnet
+158.140.191.0/24,21 unique IPv4 exits on subnet
+168.181.229.0/24,18 unique IPv4 exits on subnet
+180.107.218.0/24,20 unique IPv4 exits on subnet
+185.228.194.0/24,16 unique IPv4 exits on subnet
+185.228.195.0/24,30 unique IPv4 exits on subnet
+186.148.179.0/24,23 unique IPv4 exits on subnet
 188.132.222.0/24,33 unique IPv4 exits on subnet
-200.174.198.0/24,23 unique IPv4 exits on subnet
-27.189.128.0/24,24 unique IPv4 exits on subnet
-27.189.129.0/24,44 unique IPv4 exits on subnet
-27.189.130.0/24,49 unique IPv4 exits on subnet
-27.189.131.0/24,33 unique IPv4 exits on subnet
-27.189.132.0/24,26 unique IPv4 exits on subnet
-27.189.133.0/24,29 unique IPv4 exits on subnet
-27.189.134.0/24,38 unique IPv4 exits on subnet
-27.189.135.0/24,26 unique IPv4 exits on subnet
-27.73.227.0/24,59 unique IPv4 exits on subnet
-27.73.229.0/24,75 unique IPv4 exits on subnet
-45.184.124.0/24,52 unique IPv4 exits on subnet
-50.114.251.0/24,43 unique IPv4 exits on subnet
+200.173.124.0/24,17 unique IPv4 exits on subnet
+200.173.126.0/24,22 unique IPv4 exits on subnet
+200.173.212.0/24,23 unique IPv4 exits on subnet
+200.173.214.0/24,20 unique IPv4 exits on subnet
+200.174.198.0/24,24 unique IPv4 exits on subnet
+27.189.128.0/24,22 unique IPv4 exits on subnet
+27.189.129.0/24,40 unique IPv4 exits on subnet
+27.189.130.0/24,46 unique IPv4 exits on subnet
+27.189.131.0/24,27 unique IPv4 exits on subnet
+27.189.132.0/24,22 unique IPv4 exits on subnet
+27.189.133.0/24,31 unique IPv4 exits on subnet
+27.189.134.0/24,40 unique IPv4 exits on subnet
+27.189.135.0/24,33 unique IPv4 exits on subnet
+45.184.124.0/24,25 unique IPv4 exits on subnet
+46.203.112.0/24,20 unique IPv4 exits on subnet
 58.209.137.0/24,48 unique IPv4 exits on subnet
-58.209.139.0/24,32 unique IPv4 exits on subnet
-58.209.71.0/24,16 unique IPv4 exits on subnet
-64.113.1.0/24,17 unique IPv4 exits on subnet
-74.115.1.0/24,28 unique IPv4 exits on subnet
+58.209.139.0/24,21 unique IPv4 exits on subnet
+74.115.1.0/24,29 unique IPv4 exits on subnet
