@@ -1,30 +1,21 @@
 #
 # Automatically generated CSV list of IPv4 proxy exit subnets.
 # Extracted from proxy_exits_30d_ipv4.csv (min. 16 subnet hits)
-# Generated: Sun Apr 27 23:52:06 2025
+# Generated: Sun May  4 23:52:06 2025
 # Reference: https://github.com/mannfredcom/semi-static-proxy-ips/
 #
 subnet mask,description
 103.213.218.0/24,16 unique IPv4 exits on subnet
-114.219.174.0/24,25 unique IPv4 exits on subnet
-117.80.188.0/24,27 unique IPv4 exits on subnet
-118.113.244.0/24,24 unique IPv4 exits on subnet
-118.113.245.0/24,22 unique IPv4 exits on subnet
-118.113.246.0/24,25 unique IPv4 exits on subnet
-154.73.28.0/24,19 unique IPv4 exits on subnet
-186.148.179.0/24,35 unique IPv4 exits on subnet
-188.132.222.0/24,25 unique IPv4 exits on subnet
-200.174.198.0/24,64 unique IPv4 exits on subnet
-27.189.128.0/24,100 unique IPv4 exits on subnet
-27.189.129.0/24,86 unique IPv4 exits on subnet
-27.189.130.0/24,97 unique IPv4 exits on subnet
-27.189.131.0/24,79 unique IPv4 exits on subnet
-27.189.132.0/24,89 unique IPv4 exits on subnet
-27.189.133.0/24,96 unique IPv4 exits on subnet
-27.189.134.0/24,85 unique IPv4 exits on subnet
-27.189.135.0/24,82 unique IPv4 exits on subnet
-49.70.190.0/24,23 unique IPv4 exits on subnet
-58.209.137.0/24,34 unique IPv4 exits on subnet
-58.209.71.0/24,17 unique IPv4 exits on subnet
-77.111.246.0/24,25 unique IPv4 exits on subnet
-77.111.247.0/24,17 unique IPv4 exits on subnet
+103.217.224.0/24,17 unique IPv4 exits on subnet
+103.247.21.0/24,17 unique IPv4 exits on subnet
+118.113.244.0/24,23 unique IPv4 exits on subnet
+118.113.245.0/24,18 unique IPv4 exits on subnet
+121.232.181.0/24,18 unique IPv4 exits on subnet
+154.73.28.0/24,17 unique IPv4 exits on subnet
+186.148.179.0/24,23 unique IPv4 exits on subnet
+188.132.222.0/24,20 unique IPv4 exits on subnet
+200.174.198.0/24,62 unique IPv4 exits on subnet
+49.70.172.0/24,16 unique IPv4 exits on subnet
+49.70.190.0/24,18 unique IPv4 exits on subnet
+77.111.246.0/24,21 unique IPv4 exits on subnet
+77.111.247.0/24,22 unique IPv4 exits on subnet
