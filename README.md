@@ -1,46 +1,72 @@
 # semi-static-proxy-ips
-Lists of semi-static open proxy exit IPs, updated weekly
 
-## Introduction
+Weekly CSV feeds of **semi-static open proxy exit IPs** (IPv4 + IPv6), plus **high-activity subnet** extracts.
 
-As a complement to my February 2024 research study titled <a href="https://mannfred.com/open-proxy-life-expectancy/">Open Proxy Life Expectancy</a> a set of CSV files containing semi-static open proxy exit IPs are provided.
+Intended for **defensive workflows**: abuse mitigation, DNSBL/RBL tuning, monitoring, and research.
+
+## Background
+
+Companion dataset to [Open Proxy Life Expectancy (2022–2024)](https://mannfred.com/open-proxy-life-expectancy/).
+
+"Semi-static" = proxies detectable long enough to be useful as a stability-filtered snapshot, vs. transient one-off detections.
+
+## Definitions
+
+| Term | Meaning |
+|------|---------|
+| **Exit IP** | Source address observed when a proxy relays traffic |
+| **Entry IP** | Address of the proxy service contacted by the scanner |
+| **Asymmetric proxy** | Entry and exit IP differ; entry IP recorded in comment column |
+
+Entry ports and protocols are omitted to reduce misuse risk.
 
 ## Datasets
 
-The following semi-static exit IP datasets are available:
+### Exit IPs
 
-| List | Description |
-| --- | --- |
-| ![proxy_exits_7d_ipv4.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_exits_7d_ipv4.csv) | List of open proxy exit IPv4 IPs which have been active for 7 days or longer |
-| ![proxy_exits_7d_ipv6.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_exits_7d_ipv6.csv) | List of open proxy exit IPv6 IPs which have been active for 7 days or longer |
-| ![proxy_exits_30d_ipv4.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_exits_30d_ipv4.csv) | List of open proxy exit IPv4 IPs which have been active for 30 days or longer |
-| ![proxy_exits_30d_ipv6.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_exits_30d_ipv6.csv) | List of open proxy exit IPv6 IPs which have been active for 30 days or longer |
+| File | Description |
+|------|-------------|
+| [`proxy_exits_7d_ipv4.csv`](./proxy_exits_7d_ipv4.csv) | IPv4 exits active ≥7 days |
+| [`proxy_exits_7d_ipv6.csv`](./proxy_exits_7d_ipv6.csv) | IPv6 exits active ≥7 days |
+| [`proxy_exits_30d_ipv4.csv`](./proxy_exits_30d_ipv4.csv) | IPv4 exits active ≥30 days |
+| [`proxy_exits_30d_ipv6.csv`](./proxy_exits_30d_ipv6.csv) | IPv6 exits active ≥30 days |
 
-In cases where the exit IP(s) differ(s) from the entry IP the entry information is included in the comment field. Entry ports and protocols are omitted from the data to reduce the risk of abuse.
+### High-Activity Subnets
 
-Additionally, lists of proxy exit subnets with more activity than usual (16 or more unique IP detections per subnet) are extracted from the semi-static exit data for convenience:
+Subnets with ≥16 unique exit IPs:
 
-| List | Description |
-| --- | --- |
-| ![proxy_subnets_7d_ipv4.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_subnets_7d_ipv4.csv) | High activity IPv4 proxy subnets which have been active for 7 days or longer |
-| ![proxy_subnets_7d_ipv6.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_subnets_7d_ipv6.csv) | High activity IPv6 proxy subnets which have been active for 7 days or longer |
-| ![proxy_subnets_30d_ipv4.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_subnets_30d_ipv4.csv) | High activity IPv4 proxy subnets which have been active for 30 days or longer |
-| ![proxy_subnets_30d_ipv6.csv](https://github.com/mannfredcom/semi-static-proxy-ips/blob/main/proxy_subnets_30d_ipv6.csv) | High activity IPv6 proxy subnets which have been active for 30 days or longer |
+| File | Description |
+|------|-------------|
+| [`proxy_subnets_7d_ipv4.csv`](./proxy_subnets_7d_ipv4.csv) | IPv4 /24s active ≥7 days |
+| [`proxy_subnets_7d_ipv6.csv`](./proxy_subnets_7d_ipv6.csv) | IPv6 subnets active ≥7 days |
+| [`proxy_subnets_30d_ipv4.csv`](./proxy_subnets_30d_ipv4.csv) | IPv4 /24s active ≥30 days |
+| [`proxy_subnets_30d_ipv6.csv`](./proxy_subnets_30d_ipv6.csv) | IPv6 subnets active ≥30 days |
 
-Notes:
-- The IPv4 subnet search is simplistic and simply matches exit IPs against /24 subnets.
-- For the IPv6 search a dynamic prefix length (with a /4 boundary) is used. As the potential IP space is generally massive the search is limited to exit IPs associated with specific entry IPs. Thus, whatever prefix length may have been fitted to the data, a single entry point had access to the entire range.
+**Methodology:**
+- IPv4: /24 bucketing
+- IPv6: fitted dynamic prefix (/4 boundary) to capture dense exit ranges; limited to exits tied to specific entry IPs
 
-## Recent Statistics
+## Statistics (last 10 weeks)
 
-<img alt="semi-static exit IP statistics" title="icon" src="plots/exits.png" /><br/>
-<i>Fig 1. Semi-stable exit IP statistics over the last 10 weeks. Unique IP counts for open proxies which have had a stable lifespan of 7 days or more, and 30 days or more. "Asymmetric" IPv4 proxies have exit IPs which are different than the entry IPs. "Regular" IPv4 proxies share the same entry and exit IPs.</i><br/><br/>
-<img alt="semi-static subnet IP statistics" title="icon" src="plots/subnets.png" /><br/>
-<i>Fig 2. Semi-stable subnet IP statistics over the last 10 weeks. Subnets with more than 16 active open proxy exit IPs are tracked. For IPv4 the subnet size is fixed to /24, and for IPv6 the subnet size varies.</i><br/><br/>
-<img alt="semi-static protocol ratios" title="icon" src="plots/ratios.png" /><br/>
-<i>Fig 3. Distribution of semi-stable exit IPs over IPv4 and IPv6 over the past 10 weeks.</i><br/><br/>
+![Exit IPs](./plots/exits.png)  
+*Semi-static exit counts for ≥7d and ≥30d cohorts.*
+
+![Subnets](./plots/subnets.png)  
+*High-activity subnets (≥16 exits) by cohort.*
+
+![Protocol ratio](./plots/ratios.png)  
+*IPv4 vs IPv6 composition.*
+
+## Intended use
+
+Defensive security research, measurement, monitoring, and abuse mitigation.
+
+**Not** for circumventing safeguards or enabling malicious activity. If you believe something here creates unintended harm, please contact me.
+
+## License
+
+This data is provided as-is, without warranty. Use freely; attribution appreciated but not required.
 
 ## Contact
 
-* Web: [Thomas M. Carlsson](https://mannfred.com/)
-* E-mail: [mannfred@gmail.com](mailto:mannfred@gmail.com)
+[mannfred.com](https://mannfred.com) · [mannfred@gmail.com](mailto:mannfred@gmail.com)
