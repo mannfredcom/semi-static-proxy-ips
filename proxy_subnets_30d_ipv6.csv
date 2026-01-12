@@ -1,10 +1,7 @@
 #
 # Automatically generated CSV list of IPv6 proxy exit subnets.
 # Extracted from proxy_exits_30d_ipv6.csv (min. 16 subnet hits)
-# Generated: Sun Jan  4 23:52:08 2026
+# Generated: Sun Jan 11 23:52:07 2026
 # Reference: https://github.com/mannfredcom/semi-static-proxy-ips/
 #
 subnet mask,description
-2001:67c:2600::/40,20 unique IPv6 exits from entry IP 65.108.203.35
-2402:800:6000::/36,18 unique IPv6 exits from entry IP 103.82.23.118
-2605:6404:18a::/48,26 unique IPv6 exits from entry IP 45.61.188.134
