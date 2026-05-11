@@ -1,23 +1,28 @@
 #
 # Automatically generated CSV list of IPv6 proxy exit subnets.
 # Extracted from proxy_exits_7d_ipv6.csv (min. 16 subnet hits)
-# Generated: Sun May  3 23:52:08 2026
+# Generated: Sun May 10 23:52:09 2026
 # Reference: https://github.com/mannfredcom/semi-static-proxy-ips/
 #
 subnet mask,description
-2001:df3:e8c0:1100::/56,19 unique IPv6 exits from entry IP 160.250.54.4
-2001:df3:e8c0:1200::/56,21 unique IPv6 exits from entry IP 160.250.54.5
-2001:df3:e8c0:1400::/56,23 unique IPv6 exits from entry IP 160.250.54.7
-2001:df3:e8c0:2000::/56,21 unique IPv6 exits from entry IP 160.250.54.9
-2602:f7d6:48::/48,20 unique IPv6 exits from entry IP 23.133.196.9
-2605:6404:18a::/48,20 unique IPv6 exits from entry IP 45.61.188.134
+2001:67c:2600::/40,25 unique IPv6 exits from entry IP 65.108.203.36
+2001:67c:2628:647::/64,16 unique IPv6 exits from entry IP 65.108.203.37
+2001:df3:e8c0:1100::/56,20 unique IPv6 exits from entry IP 160.250.54.4
+2001:df3:e8c0:1200::/56,18 unique IPv6 exits from entry IP 160.250.54.5
+2001:df3:e8c0:2000::/56,20 unique IPv6 exits from entry IP 160.250.54.9
+2602:f7d6:48::/48,22 unique IPv6 exits from entry IP 23.133.196.9
+2605:6404:18a::/48,25 unique IPv6 exits from entry IP 45.61.188.134
 2a03:b0c0:3:f0:0:2:40b7::/112,16 unique IPv6 exits from entry IP 164.90.185.232
 2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 134.122.76.129
 2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 164.90.183.36
 2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 164.90.187.185
 2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 164.90.221.76
 2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 164.90.237.11
+2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 164.92.139.129
+2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 164.92.142.233
+2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 164.92.179.1
 2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 167.172.161.22
 2a03:b0c0:3:f0:0:2:40b8::/112,16 unique IPv6 exits from entry IP 46.101.184.29
-2a09:bac5:1760::/44,31 unique IPv6 exits from entry IP 185.196.61.181
-2a09:bac5:3a00::/44,22 unique IPv6 exits from entry IP 103.197.188.63
+2a09:bac5:1760::/44,16 unique IPv6 exits from entry IP 185.196.61.181
+2a09:bac5:3a00::/44,24 unique IPv6 exits from entry IP 103.197.188.63
+2a09:bac5:c390::/44,23 unique IPv6 exits from entry IP 23.26.125.56
