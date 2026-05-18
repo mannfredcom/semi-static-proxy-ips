@@ -1,16 +1,16 @@
 #
 # Automatically generated CSV list of IPv4 proxy exit subnets.
 # Extracted from proxy_exits_30d_ipv4.csv (min. 16 subnet hits)
-# Generated: Sun May 10 23:52:09 2026
+# Generated: Sun May 17 23:52:09 2026
 # Reference: https://github.com/mannfredcom/semi-static-proxy-ips/
 #
 subnet mask,description
-103.100.175.0/24,23 unique IPv4 exits on subnet
-103.104.142.0/24,26 unique IPv4 exits on subnet
-103.166.9.0/24,22 unique IPv4 exits on subnet
-154.220.66.0/24,73 unique IPv4 exits on subnet
-157.0.147.0/24,24 unique IPv4 exits on subnet
-186.148.179.0/24,21 unique IPv4 exits on subnet
-200.174.198.0/24,18 unique IPv4 exits on subnet
-202.65.233.0/24,22 unique IPv4 exits on subnet
-202.65.234.0/24,17 unique IPv4 exits on subnet
+103.100.175.0/24,19 unique IPv4 exits on subnet
+103.104.142.0/24,29 unique IPv4 exits on subnet
+103.166.9.0/24,35 unique IPv4 exits on subnet
+154.220.66.0/24,126 unique IPv4 exits on subnet
+157.0.147.0/24,29 unique IPv4 exits on subnet
+186.148.179.0/24,20 unique IPv4 exits on subnet
+202.65.233.0/24,19 unique IPv4 exits on subnet
+202.65.234.0/24,23 unique IPv4 exits on subnet
+203.17.81.0/24,18 unique IPv4 exits on subnet
