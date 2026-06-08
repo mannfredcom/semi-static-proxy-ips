@@ -1,23 +1,24 @@
 #
 # Automatically generated CSV list of IPv6 proxy exit subnets.
 # Extracted from proxy_exits_7d_ipv6.csv (min. 16 subnet hits)
-# Generated: Sun May 31 23:52:12 2026
+# Generated: Sun Jun  7 23:52:11 2026
 # Reference: https://github.com/mannfredcom/semi-static-proxy-ips/
 #
 subnet mask,description
-2001:67c:2628:647:0::/72,16 unique IPv6 exits from entry IP 65.108.203.35
-2001:67c:2628:647:20::/76,20 unique IPv6 exits from entry IP 65.108.203.36
+2001:67c:2600::/40,20 unique IPv6 exits from entry IP 65.108.203.35
+2001:67c:2628:647:20::/76,36 unique IPv6 exits from entry IP 65.108.203.36
 2001:67c:2660:425:0::/76,17 unique IPv6 exits from entry IP 65.108.203.37
-2001:df3:e8c0:1100::/56,17 unique IPv6 exits from entry IP 160.250.54.4
-2001:df3:e8c0:1200::/56,16 unique IPv6 exits from entry IP 160.250.54.5
-2001:df3:e8c0:1400::/56,26 unique IPv6 exits from entry IP 160.250.54.7
-2001:df3:e8c0:2000::/56,17 unique IPv6 exits from entry IP 160.250.54.9
-2602:f7d6:46::/48,19 unique IPv6 exits from entry IP 23.133.196.7
-2602:f7d6:47::/48,19 unique IPv6 exits from entry IP 23.133.196.8
-2602:f7d6:48::/48,23 unique IPv6 exits from entry IP 23.133.196.9
-2602:f7d6:50:0::/56,25 unique IPv6 exits from entry IP 23.133.196.13
-2605:6404:18a:5000::/52,16 unique IPv6 exits from entry IP 45.61.188.134
-2a09:bac5:4430::/44,21 unique IPv6 exits from entry IP 23.176.40.194
-2a09:bac5:5150::/44,25 unique IPv6 exits from entry IP 45.140.169.241
-2a09:bac5:6240::/44,26 unique IPv6 exits from entry IP 38.76.150.55
-2a09:bac5:a530::/44,17 unique IPv6 exits from entry IP 209.141.46.220
+2001:df3:e8c0:1100::/56,18 unique IPv6 exits from entry IP 160.250.54.4
+2001:df3:e8c0:1200::/56,18 unique IPv6 exits from entry IP 160.250.54.5
+2001:df3:e8c0:1400::/56,23 unique IPv6 exits from entry IP 160.250.54.7
+2001:df3:e8c0:2000::/56,18 unique IPv6 exits from entry IP 160.250.54.8
+2001:df3:e8c0:2000::/56,21 unique IPv6 exits from entry IP 160.250.54.9
+2602:f7d6:46::/48,18 unique IPv6 exits from entry IP 23.133.196.7
+2602:f7d6:48::/48,21 unique IPv6 exits from entry IP 23.133.196.9
+2602:f7d6:49::/48,16 unique IPv6 exits from entry IP 23.133.196.5
+2602:f7d6:50:0::/56,26 unique IPv6 exits from entry IP 23.133.196.13
+2605:6404:18a::/48,26 unique IPv6 exits from entry IP 45.61.188.134
+2a09:bac5:4300::/44,17 unique IPv6 exits from entry IP 43.133.22.248
+2a09:bac5:5150::/44,26 unique IPv6 exits from entry IP 45.140.169.241
+2a09:bac5:6240::/44,33 unique IPv6 exits from entry IP 38.76.150.55
+2a09:bac5:a530::/44,21 unique IPv6 exits from entry IP 209.141.46.220
