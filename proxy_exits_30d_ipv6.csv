@@ -4,15 +4,17 @@
 # a 93.6% statistical likelihood of remaining actively exploitable for
 # another 7 days or more.
 #
-# Generated: Sat Jul 25 23:59:47 2026
+# Generated: Mon Jul 27 02:00:43 2026
 # Reference: https://github.com/mannfredcom/semi-static-proxy-ips/
 #
 proxy exit ip,optional comment
 2001:1203:1000:1a::2,entry is 5.102.108.221
 2001:1225::2,entry is 89.45.209.142
+2001:19f0:8001:262:5400:4ff:fe3b:5fa6,entry is 45.63.38.134
 2001:19f0:c800:232c:5400:4ff:fe4a:8ebe,entry is 64.176.6.165
 2001:1b40:5000:90::5fb0:4d54,entry is 81.168.119.85
-2001:1b40:5700:900a::1,entry is 76.144.40.133
+2001:1b40:5700:940f::1,entry is 76.144.40.133
+2001:41d0:403:ce8::,entry is 51.254.167.233
 2001:41d0:701:1100::2d7d,entry is 54.37.73.95
 2001:41d0:701:1100::48d8,entry is 135.125.159.16
 2001:648:2ffe:501:cc00:11ff:fef4:59d6,entry is 83.212.72.114
@@ -25,9 +27,10 @@ proxy exit ip,optional comment
 2001:df2:3a00:1000::2,entry is 103.113.3.22
 2001:df3:e8c0:1300::1,entry is 160.250.54.6
 2001:df3:f4c0::6,entry is 103.139.242.233
-2001:df4:3d40:0:f816:3eff:fef8:ddac,entry is 103.137.185.212
+2001:df4:1840:162::a,entry is 103.115.44.114
 2001:df6:3080:fff0::2,entry is 103.163.244.17
 2001:df6:f980::6,entry is 103.169.154.4
+2003:a:4:e500:215:5dff:fe83:c00b,entry is 217.92.132.233
 2400:6180:0:d2:0:2:eca7:f000,entry is 152.42.225.237
 2400:65c0::25,entry is 103.26.110.209
 2400:65c0::31,entry is 103.26.110.125
@@ -55,9 +58,7 @@ proxy exit ip,optional comment
 2406:8dc0:6008:2e0::,entry is 140.235.38.56
 2406:da14:d37:d000:e09a:eb48:f69:eaa3,entry is 39.105.123.133
 2406:da14:f58:f00:8120:8649:8f84:c154,entry is 3.112.210.73
-2407:1c00:6100:4090::,entry is 206.123.156.227
 2407:1c00:6300:3390::,entry is 206.123.156.220
-2407:35c0:1::132,entry is 103.181.92.250
 2407:b7c0:100::12e,entry is 103.48.71.166
 2407:b7c0:100::132,entry is 103.48.71.170
 2407:b7c0:100::56,entry is 103.48.70.161
@@ -65,6 +66,7 @@ proxy exit ip,optional comment
 2407:b7c0:100::7a,entry is 103.48.68.11
 2407:b7c0:100::82,entry is 103.48.71.126
 2407:cdc0:f001::101f,entry is 103.115.44.114
+2407:cdc0:f004:d37:e8fb:8991:2fdb:5056,entry is 83.147.14.14
 2408:822e:2085:7180:72f4:41cf:5e9e:e4be,entry is 47.238.173.39
 240d:c000:f000:9200:2c38:126:8c5e:0,entry is 43.161.239.147
 2600:3c02::f03c:93ff:feaa:64b3,entry is 45.79.203.254
@@ -72,10 +74,13 @@ proxy exit ip,optional comment
 2600:3c0e::f03c:94ff:fecf:3993,entry is 172.233.49.176
 2600:3c13::2000:caff:fea2:d8f4,entry is 172.236.14.204
 2602:f8ea:2:e::a,entry is 76.144.40.133
+2602:f8ea:3:5::a,entry is 102.211.56.106
 2602:fa59:1:26f::1,entry is 76.144.40.133
 2602:fa59:5:173::1,entry is 76.144.40.133
 2602:fa59:5:1c2::1,entry is 76.144.40.133
 2602:fa59:5:a98::1,entry is 76.144.40.133
+2602:fa59:5:bd::1,entry is 76.144.40.133
+2602:fa59:8:148::1,entry is 76.144.40.133
 2602:fa59:8:399::1,entry is 76.144.40.133
 2602:fb54:1533::1,undocumented TOR exit
 2602:fbf1:b001::1001,entry is 59.66.217.249
@@ -85,11 +90,12 @@ proxy exit ip,optional comment
 2604:9cc0:1e::b52c:cb88,entry is 45.145.73.240
 2604:a880:2:d1:0:1:6065:3001,entry is 157.230.136.114
 2605:4c40:33:9849:0:a863:daa:1,entry is 169.155.50.87
+2605:6404:18a::1,entry is 45.61.188.134
 2605:e440:3c::1c4,entry is 132.243.239.24
 2607:5300:205:200::81f8,entry is 51.79.71.202
 2607:5300:205:200::96f0,entry is 158.69.60.88
-2607:a2c0::153,entry is 103.115.44.114
 2607:f5b4:88:104:1c00:d6ff:fe00:115,entry is 218.70.229.168
+2800:490:4001:c900::2,entry is 181.225.75.83
 2803:1510:26::12,entry is 38.253.95.80
 2803:15d0:10::1,entry is 177.234.217.56
 2803:2540:b2:89::,entry is 177.234.217.238
@@ -111,6 +117,7 @@ proxy exit ip,optional comment
 2803:5e40:a000:35::2,entry is 170.245.50.225
 2803:5f90:5800::,entry is 38.183.183.114
 2803:6a10:7000:1::2,entry is 167.249.30.64
+2803:7090:122::,entry is 45.170.102.17
 2803:7a20:80:1::2,entry is 45.225.206.5
 2803:7a20:80:3::2,entry is 45.225.204.10
 2803:7d10:1::3,entry is 187.63.156.230
@@ -134,6 +141,8 @@ proxy exit ip,optional comment
 2803:ccd0:802:2::100,entry is 45.182.21.150
 2803:ce10:2e::1,entry is 200.24.138.73
 2803:d060:ff10:f::2,entry is 45.173.207.126
+2803:d6d0:2101::2,entry is 38.7.195.40
+2803:d710:1::122,entry is 38.191.85.108
 2803:d90:510::2,entry is 179.1.48.48
 2803:d90:512::2,entry is 181.119.84.122
 2803:d90:f000:504::2,entry is 181.119.84.134
@@ -153,15 +162,16 @@ proxy exit ip,optional comment
 2806:211:e:fe07::10,entry is 187.248.75.114
 2806:319:1:119:464c:a8ff:fe55:212,entry is 38.65.175.68
 2806:3aa:1300::2,entry is 201.77.108.72
-2806:429:e:2::2,entry is 38.210.179.204
 2a00:1169:11d:3da0::,entry is 92.205.186.129
 2a00:b700::5:6b,entry is 46.29.166.134
+2a01:239:290:200::1,entry is 212.132.126.182
 2a01:4f8:1c1c:7dca::1,entry is 91.107.228.234
+2a01:4f8:c010:1b56::1,entry is 87.247.174.160
 2a01:4f8:c013:ffc0::1,entry is 76.144.40.133
 2a01:4f9:c011:610c::1,entry is 65.109.179.56
+2a01:e5c0:4114::2,entry is 79.137.204.149
 2a01:e5c0:4b3a::2,entry is 79.137.197.56
 2a01:e5c0:5838::2,entry is 62.60.216.109
-2a01:ecc0:1005:1700::2,entry is 144.31.226.71
 2a01:ecc0:40:138a::2,entry is 144.31.104.86
 2a01:ecc0:40:1ee1::2,entry is 144.31.255.9
 2a01:f900:10:327::1,entry is 212.87.198.96
@@ -171,19 +181,19 @@ proxy exit ip,optional comment
 2a02:c207:2274:786::1,entry is 185.182.187.49
 2a02:c207:2289:3273::1,entry is 62.84.181.67
 2a02:c207:2336:4504::1,entry is 13.140.170.132
+2a03:6f02::1:43f0,entry is 64.188.62.23
 2a03:6f02::1:72a2,entry is 72.56.98.237
 2a03:6f02::c2e1,entry is 72.56.73.224
 2a03:90c0:5f1:2903::79,entry is 85.90.207.46
+2a03:cfc0:8040:25::a,entry is 76.144.40.133
 2a03:cfc0:8040:26::a,entry is 76.144.40.133
 2a03:f480:1:20::93,entry is 5.45.118.209
-2a03:f480:1:b::e9,entry is 5.45.125.201
 2a05:4140:3::47c8,entry is 5.59.248.134
 2a05:541:113:2c::1,entry is 45.95.232.35
 2a09:bac1:3f00::22:128,entry is 152.70.237.238
 2a09:bac5:51ae:2369::387:34,entry is 144.31.222.106
-2a09:bac5:a312:292d::41a:1d,entry is 144.202.14.153
-2a09:bac5:a313:2923::419:25,entry is 144.202.14.153
 2a09:e683:7:21::a,entry is 76.144.40.133
+2a09:e683:7:5::a,entry is 102.211.56.106
 2a09:e683:7:68::a,entry is 76.144.40.133
 2a09:e683:7:6::a,entry is 76.144.40.133
 2a09:e683:7:6c::a,entry is 76.144.40.133
@@ -203,10 +213,10 @@ proxy exit ip,optional comment
 2a0b:4142:9ff::2,entry is 94.159.106.252
 2a0b:64c0:18:0:216:3eff:fe16:164d,entry is 102.211.56.106
 2a0b:64c0:18:0:216:3eff:fe46:cadb,entry is 76.144.40.133
+2a0b:64c0:18:0:216:3eff:fed9:a60c,entry is 102.211.56.106
 2a0b:f4c2:1::1,undocumented TOR exit
 2a0d:6c2:17:520::,entry is 104.249.40.117
 2a0d:6c2:24:8353::,entry is 194.76.172.30
-2a0f:85c1:840:8ae3::1,entry is 76.144.40.133
 2a0f:85c1:840:f247::1,entry is 76.144.40.133
 2a0f:85c1:b73:19e::a,entry is 76.144.40.133
 2a0f:cdc6:500:2326::2,entry is 144.31.189.114
@@ -226,9 +236,9 @@ proxy exit ip,optional comment
 2a12:bec4:1da0:2e::a,entry is 102.211.56.106
 2a12:bec4:1df0:b4::a,entry is 102.211.56.106
 2a14:1ec7:1094:e9d6::1,entry is 76.144.40.133
-2a14:1ec7:10d2:cc9::1,entry is 76.144.40.133
+2a14:1ec7:10ed:d55e::1,entry is 76.144.40.133
 2a14:c380:c70:5d::a,entry is 76.144.40.133
-2a14:c380:d70:2:6928:b83a:3891:28c2,undocumented TOR exit
+2a14:c380:d70:2:6928:b83a:3891:28c2,entry is 46.161.27.244
 2c0f:11c0:401:1::1,entry is 102.207.128.2
 2c0f:3440:1::2,entry is 102.209.76.106
 2c0f:4640:1300::3,entry is 102.213.179.194
